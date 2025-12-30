@@ -7,9 +7,9 @@ function App() {
   return (
     <div className={count ? "App":"Appa"} >
       <header className={count ? "App-header":"Appa-header"}>
-      {count?<h1>Topa le leo</h1>:<h1>Nahi loge!</h1>} 
+      {count?<h1>Dark is mode is off</h1>:<h1>Dark is mode on!</h1>} 
        <button onClick={() => setCount(lanura => !lanura)}>
-        Lick me 
+         {count ? "dark mode off" : "dark mode on"}
        </button>
       </header>
     </div>
